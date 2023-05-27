@@ -12,6 +12,7 @@
   <style src="./Style.css"></style>
   
   <script>
+
   export default {
     name: 'AppNavbar',
   };
