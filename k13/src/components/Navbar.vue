@@ -1,10 +1,10 @@
 <template>
     <nav>
       <ul>
-        <li><a href="#">Home</a></li>
-        <li><a href="#">About</a></li>
-        <li><a href="#">Services</a></li>
-        <li><a href="#">Contact</a></li>
+        <li><a href="#">Kezdőlap</a></li>
+        <li><a href="#">Rólunk</a></li>
+        <li><a href="#">Árajánlat</a></li>
+        <li><a href="#">Kapcsolat</a></li>
       </ul>
     </nav>
   </template>

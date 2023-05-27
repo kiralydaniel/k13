@@ -13,7 +13,7 @@
           <p>2018 őszétől - jogszabályváltozás miatt - már csak kondenzációs kazánok szerelhetők fel az elromlott turbós
             (nem kondenzációs) kazánok helyett.</p>
         </div>
-        <div class="text-box-right">
+        <div class="text-box-dark">
             <p>A kondenzációs kazánok füstgáza hidegebb a turbós kazánokénál, ezért az csak túlnyomással távozik maradéktalanul a kéményből.</p>
 
             <p>Ha a meglévő kéményre kondenzációs és turbós kazán is bekötésre kerülne, a túlnyomás és a víz bejutna az éppen nem működő turbós kazánokba és tönkretenné azokat.</p>
