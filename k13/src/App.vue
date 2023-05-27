@@ -1,11 +1,13 @@
 <template>
   <div id="app">
     <AppNavbar />
+    <button class="scroll-button" @click="scrollToTop" v-show="showScrollButton">
+      <span class="arrow-up"></span>
+    </button>
     <main>
       <ChimneyUpgrade />
       <ChimneySolve />
       <p>{{ message }}</p>
-      
     </main>
     <footer>
       <p>&copy; {{ currentYear }} K13 Mester</p>
@@ -28,29 +30,27 @@ export default {
     return {
       message: "Thank you for visiting!",
       currentYear: new Date().getFullYear(),
+      showScrollButton: false,
     };
+  },
+  mounted() {
+    window.addEventListener('scroll', this.handleScroll);
+  },
+  beforeUnmount() {
+    window.removeEventListener('scroll', this.handleScroll);
+  },
+  methods: {
+    handleScroll() {
+      const scrollTop = window.pageYOffset || document.documentElement.scrollTop;
+      this.showScrollButton = scrollTop > 300;
+    },
+    scrollToTop() {
+      window.scrollTo({
+        top: 0,
+        behavior: 'smooth',
+      });
+    },
   },
 };
 </script>
 
-<style>
-body {
-  font-family: Arial, sans-serif;
-  margin: 0;
-  padding: 0;
-  background-color: rgb(255, 255, 255);
-}
-
-#app {
-  text-align: center;
-  padding: 20px;
-}
-
-header {
-  margin-bottom: 20px;
-}
-
-footer {
-  margin-top: 40px;
-}
-</style>

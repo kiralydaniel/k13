@@ -1,5 +1,5 @@
 <template>
-  <div class="text-box">
+  <div class="text-box" style="margin-top: 50px;">
     <h1>
       <span class="text-dark">A kéményátalakítás</span>
       <br/>
