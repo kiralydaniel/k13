@@ -79,12 +79,13 @@ nav {
   }
   
   @media (max-width: 768px) {
-    .chimney-upgrade-row {
+    .text-box-row {
       flex-wrap: wrap;
     }
   
     .text-box-left,
-    .text-box-right {
+    .text-box-right,
+    .text-box-dark {
       width: 100%;
     }
   }
