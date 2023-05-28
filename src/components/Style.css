@@ -94,6 +94,8 @@ nav {
     .text-box-right,
     .text-box-dark {
       width: 100%;
+      box-sizing: border-box;
+      padding: 10px;
     }
   }
   
