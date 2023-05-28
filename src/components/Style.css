@@ -95,6 +95,10 @@ nav {
     padding: 10px;
   }
 
+  .scroll-link {
+    cursor: pointer;
+  }
+
   .scroll-button {
     border: none;
     position: fixed;

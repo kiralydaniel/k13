@@ -13,7 +13,7 @@
         <p>A felmért adatok alapján összeállítjuk teljes hosszában a bélésszerkezetet, melyet a kémény felső kitorkollásánál bevezetve nyerjük a bélelt kürőt.</p>
       </div>
     </div>
-    <div class="text-box-row">
+    <div class="text-box-row" ref="targetElement">
       <div class="text-box-left">
         <p>A kazáncsatlakoztatásoknál beépítjük a speciális füstgázcsappantyúkat, valamint kialakítjuk az alsó kondenzátumelvezetési pontot is.</p>
       </div>

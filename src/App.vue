@@ -7,7 +7,6 @@
     <main>
       <ChimneyUpgrade />
       <ChimneySolve />
-      <p>{{ message }}</p>
     </main>
     <footer>
       <p>&copy; {{ currentYear }} K13 Mester</p>
@@ -28,7 +27,6 @@ export default {
   },
   data() {
     return {
-      message: "Thank you for visiting!",
       currentYear: new Date().getFullYear(),
       showScrollButton: false,
     };
