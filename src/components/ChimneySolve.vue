@@ -32,8 +32,9 @@
       <div class="text-box-row">
         <div class="text-box-left">
           <p>Kéményfelújítással meg kell oldani, hogy az új kondenzációs kazán együtt tudjon működni a régi turbós kazánokkal. A meglévő kéményt át kell alakítani olyan túlnyomásos, kondenzációs
-            gyűjtőkéménnyém, ami mind a magas hőmérsékletű (turbós), mind az alacsony hőmérsékletű és sok nedvességet tartalmazó (kondenzációs) égésterméknek ellenáll.
-            Így alkalmas lesz az újonnan felszerelt kondenzációs kazánok füstgáz elvezetésére is. Ezen felül speciális csappantyúk beépítésével meg kell akadályozni azt is, hogy a kondenzációs kazán
+            gyűjtőkéménnyém, ami mind a magas hőmérsékletű (turbós), mind az alacsony hőmérsékletű és sok nedvességet tartalmazó (kondenzációs) égésterméknek ellenáll.</p>
+
+          <p>Így alkalmas lesz az újonnan felszerelt kondenzációs kazánok füstgáz elvezetésére is. Ezen felül speciális csappantyúk beépítésével meg kell akadályozni azt is, hogy a kondenzációs kazán
             túlnyomása kárt tegyen a turbós készülékben.
           </p>
         </div>
