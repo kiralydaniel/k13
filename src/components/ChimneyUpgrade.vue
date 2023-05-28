@@ -1,7 +1,7 @@
 <template>
-  <div class="text-box" style="margin-top: 50px;">
+  <div class="text-box">
     <h1>
-      <span class="text-dark">A kéményátalakítás</span>
+      <span class="text-dark" style="margin-top: 30px;">A kéményátalakítás</span>
       <br/>
       <span class="text-light">lépésről lépésre</span>
     </h1>
